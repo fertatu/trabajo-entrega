@@ -1,0 +1,292 @@
+.homepage {
+   margin: 0px;
+}
+
+header {
+   background-image: url('../imgs/fondo2.jpg');
+   height: 115px;
+   margin-bottom: 50px;
+}
+
+.container-header-top {
+   padding: 40px 15px 0px 15px;
+   
+}
+
+.flex-item-container-header-top {
+   padding: 0px 0px 0px 0px;
+   display: flex;
+}
+
+.logo {
+   width: 80%;
+   padding: 0px 20px;
+}
+
+.info-right {
+   width: 20%;
+   align-self: center;
+}
+.newsletter {
+   height: 45px; 
+   padding-left: 5px;
+   padding-right: 5px;   
+   margin-bottom: 20px; 
+   margin-top: 10px;   
+   text-transform: uppercase;
+   background-color: #a6a5aa; 
+   border-color: #285bca; 
+   border-style: solid; 
+   border-radius: 10px;  
+   width: 60%;   
+   cursor: pointer;
+ }
+
+.container-nav {
+   margin: 0px;
+
+}
+
+#nav ul{
+   background-color: #007aff;
+   list-style-type: none;
+   text-align: left;
+   padding: 15px 20px 13px 20px;
+   margin: 0px;
+}
+
+#nav li{
+   display: inline;
+   text-align: center;
+}
+
+#nav li a {
+   padding: 15px 18px 14px 18px;
+   color: white;
+   background-color: #007aff;
+   text-decoration: none;
+}
+
+#nav li a:hover{
+   background-color: #ffffff;
+   color: #007aff;
+}
+
+#nav a{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.sections {
+   margin: 0px 15px 0px 15px;
+   padding: 0px 15px 0px 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+#actualidad {
+   display: flex;
+   
+}
+
+.col1 {
+   margin: 15px 0px;
+   padding: 0px 15px;
+   width: 25%;
+}
+
+.col2 {
+   margin: 15px 0px;
+   padding: 0px 15px;
+   width: 50%;
+}
+
+.over {
+   color: #007aff;
+}
+
+h3 a {
+   color: black;
+   text-decoration: none;
+}
+
+#contacto { 
+   background-color: #F2F2F2;
+}
+
+footer {
+   background-color: black;
+}
+
+.container-footer {
+   margin: 0px 16px;
+   padding: 0px 15px;
+}
+
+.container-columns {
+   padding: 32px 0px;
+}
+
+.row {
+   display: flex;
+}
+
+.contact-info {
+   position: relative;
+   color: #ffffff;
+}
+
+.info { 
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+   color: #fff;
+}
+
+.logof { 
+   padding: 30px 0px;
+}
+
+.contact-info::before {
+   content: "";
+   width: 58px;
+   height: 4px;
+   display: block;
+   background-color: #007aff;
+   margin-bottom: 15px;
+}
+
+.bottom-footer {
+   padding: 0.8rem 0;
+   border-top: 1px solid #333;
+   color: #ffffff;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: small;
+}
+
+.contact_form{  
+   width: 460px; 
+   height: auto;
+   margin: 80px auto;
+   border-radius: 10px;  
+   padding-top: 30px;
+   padding-bottom: 20px;  
+   background-color: #fbfbfb; 
+   padding-left: 30px; 
+ }
+ 
+ 
+ input{
+   background-color: #fbfbfb; 
+   width: 408px; 
+   height: 40px; 
+   border-radius: 5px;  
+   border-style: solid; 
+   border-width: 1px; 
+   border-color: #4460ab; 
+   margin-top: 10px;  
+   padding-left: 10px;
+   margin-bottom: 20px; 
+ }
+ 
+ 
+ textarea{
+   background-color: #fbfbfb; 
+   width: 405px; 
+   height: 150px; 
+   border-radius: 5px;  
+   border-style: solid; 
+   border-width: 1px; 
+   border-color: #4460ab; 
+   margin-top: 10px;  
+   padding-left: 10px;
+   margin-bottom: 20px; 
+   padding-top: 15px; 
+ }
+ 
+ 
+ label{
+   display: block; 
+   float: center;  
+ }
+ 
+ 
+ button{
+   height: 45px; 
+   padding-left: 5px;
+   padding-right: 5px;   
+   margin-bottom: 20px; 
+   margin-top: 10px;   
+   text-transform: uppercase;
+   background-color: #4460ab; 
+   border-color: #4460ab; 
+   border-style: solid; 
+   border-radius: 10px;  
+   width: 420px;   
+   cursor: pointer;
+ }
+ 
+ 
+ button p{
+   color: #fff; 
+ }
+ 
+ 
+ span{
+   color: #4460ab; 
+ }
+ 
+ 
+ .aviso{
+   font-size: 13px;  
+   color: #0e0e0e;  
+ }
+ 
+ 
+ h1{
+   font-size: 39px;  
+   text-align: letf; 
+   padding-bottom: 20px; 
+   color: #4460ab;
+ }
+ 
+ 
+ h3{
+   font-size: 16px; 
+   padding-bottom: 30px;
+   color: #0e0e0e;   
+ }
+ 
+ 
+ p{
+   font-size: 14px; 
+   color: #0e0e0e; 
+ }
+ 
+ 
+ ::-webkit-input-placeholder {
+  color: #a8a8a8;
+ }
+ 
+ 
+ ::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+ }
+ 
+ 
+ .formulario input:focus{
+   outline:0;
+   border: 1px solid #97d848;
+ }
+ 
+ 
+ .formulario textarea:focus{
+   outline:0;
+   border: 1px solid #97d848;
+ }
+
+h2 {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+   font-family: Arial, Helvetica, sans-serif;
+}
